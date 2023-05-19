@@ -10,7 +10,7 @@ function WorkerItem({ id, fullName, img, kota, rating, keahlian }) {
         <img
           src={
             img
-              ? `http://localhost:3005/` + img
+              ? img
               : "https://www.kindpng.com/picc/m/105-1055656_account-user-profile-avatar-avatar-user-profile-icon.png"
           }
           alt=""
